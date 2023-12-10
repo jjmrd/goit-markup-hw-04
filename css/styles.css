@@ -132,15 +132,15 @@ body {
 
 /* first section */
 .first-section {
+  background-color: var(--navy-blue);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office.jpg);
+    url("/images/people-office.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: var(--navy-blue);
   max-width: 1440px;
   padding: 188px 0;
 }
