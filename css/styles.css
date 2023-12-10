@@ -389,7 +389,7 @@ body {
 
 /* fifth section */
 .fifth-section {
-  padding-top: 120px 0;
+  padding: 120px 0;
 }
 
 .section-five-customers {
@@ -419,6 +419,7 @@ body {
 }
 .section-five-customers-a:hover,
 .section-five-customers-a:focus {
+  color: var(--ocean);
   border-color: var(--ocean);
 }
 .section-five-svg {
@@ -428,6 +429,8 @@ body {
 .footer-div {
   display: flex;
   align-items: baseline;
+}
+.footer-wrap {
   margin-right: 120px;
 }
 .footer-social-media {
@@ -456,9 +459,10 @@ body {
   align-items: center;
   justify-content: center;
 }
-.footer-social-media-a:hover. .footer-social-media-a:focus{
+.footer-social-media-a:hover,
+.footer-social-media-a:focus {
   background-color: var(--green);
 }
-.footer-svg{
+.footer-svg {
   fill: var(--cloud);
 }
